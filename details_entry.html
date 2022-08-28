@@ -1,0 +1,55 @@
+<html>
+<head>
+	<title>
+		Registration Form
+	</title>
+	<style>
+        body {
+          background-image: url('https://i.pinimg.com/originals/76/7b/00/767b00eb33c291e35477787ec2de8953.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: 100% 100%;
+		 
+        }
+        </style>
+</head>
+<body>
+	<div>
+		<!--<h1>Details Entry Form</h1>-->
+	</div>
+<form action="details_entry.php" method="post"  >
+	<table border="1" align="center" >
+		<tr>
+			<td >
+			
+			<label>Enter First Name</label></td>
+			<td><input type="text" name="first_name" size="40"></td>
+		</tr>
+		<tr>
+			<td >
+			<label>Enter Last Name</label></td>
+			<td><input type="text" name="last_name" size="40"></td>
+		</tr>
+		<tr>
+			<td>
+			<label>Gender</label></td>
+			<td><input type="radio" name="gender" value="male" size="40">Male
+			<input type="radio" name="gender" value="female" size="40">Female</td>
+		</tr>
+		<tr>
+			<td>
+			<label>Enter Email</label></td>
+			<td><input type="email" name="email" size="40"></td>
+		</tr>
+		<tr>
+			<td>
+			<label>Enter Phone</label></td>
+			<td><input type="phone" name="phone" size="40"></td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center" ><input type="submit" name="save" value="Submit" style="font-size:20px" ></td>
+		</tr>
+	</table>
+</form>
+</body>
+</html>
